@@ -25,15 +25,15 @@ The dataset contains historical sales data for 45 Walmart stores across various 
 | product_line           | Product line of the product sold   | VARCHAR(100)     |
 | unit_price             | The price of each product          | DECIMAL(10, 2)   |
 | quantity               | The amount of the product sold     | INT              |
-| VAT                    | The amount of tax on the purchase  | FLOAT(6, 4)      |
+| VAT                    | The amount of tax on the purchase  | DECIMAL(6, 4)      |
 | total                  | The total cost of the purchase     | DECIMAL(10, 2)   |
 | date                   | The date on which the purchase was made | DATE         |
 | time                   | The time at which the purchase was made | TIMESTAMP   |
 | payment_method         | The total amount paid              | DECIMAL(10, 2)   |
 | cogs                   | Cost Of Goods sold                 | DECIMAL(10, 2)   |
-| gross_margin_percentage| Gross margin percentage            | FLOAT(11, 9)     |
+| gross_margin_percentage| Gross margin percentage            | DECIMAL(11, 9)     |
 | gross_income           | Gross Income                       | DECIMAL(10, 2)   |
-| rating                 | Rating                             | FLOAT(2, 1)      |
+| rating                 | Rating                             | DECIMAL(2, 1)      |
 
 
 
@@ -79,24 +79,24 @@ Assess the profitability of different customer segments.
 * Answer specific business questions to support     decision-making.
 ## Business Questions Addressed
 1. Generic Question
-* How many unique cities does the data have?
+* How many unique cities are there in the sales data have?
 * In which city is each branch?
 2. Product
 *	How many unique product lines does the data have?
 *	What is the most common payment method?
-*	What is the most selling product line?
-*	What is the total revenue by month?
-*	What month had the largest COGS?
-*	What product line had the largest revenue?
-*	What is the city with the largest revenue?
-*	What product line had the largest VAT?
+*	Fetch some most selling product lines?
+*	Fetch total revenue by month?
+*	Fetch months along with their COGS?
+*	Which product line has the largest revenue
+*	What city and branch has the largest revenue?
+*	Which product line has the largest VAT?
 *	Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
 *	Which branch sold more products than average product sold?
-*	What is the most common product line by gender?
+*	Which is the most common product line by gender?
 *	What is the average rating of each product line?
 
 3. Sales
-*	Number of sales made in each time of the day per weekday
+*	Number of sales made in each time of the day per weekday?
 *	Which of the customer types brings the most revenue?
 *	Which city has the largest tax percent/ VAT (Value Added Tax)?
 *	Which customer type pays the most in VAT?
@@ -104,8 +104,7 @@ Assess the profitability of different customer segments.
 4. Customer
 *	How many unique customer types does the data have?
 *	How many unique payment methods does the data have?
-*	What is the most common customer type?
-*	Which customer type buys the most?
+*	How many unique customer types along with the count does the data have?
 *	What is the gender of most of the customers?
 *	What is the gender distribution per branch?
 *	Which time of the day do customers give most ratings?
