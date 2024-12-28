@@ -42,9 +42,9 @@ The dataset contains historical sales data for 45 Walmart stores across various 
 
 1. Product Analysis
 
-Identify top-performing product lines.
+* Identify top-performing product lines.
 
-Analyze product lines requiring improvement.
+* Analyze product lines requiring improvement.
 
 2. Sales Analysis
 
