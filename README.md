@@ -11,6 +11,7 @@ This project analyzes Walmart Sales data to gain insights into:
 * Customer behavior and preferences.
 
 The goal is to identify factors influencing sales performance and provide actionable recommendations for optimizing sales strategies. The dataset is sourced from the Kaggle Walmart Sales Forecasting Competition.
+
 Data Set Description :-
 
 The dataset contains historical sales data for 45 Walmart stores across various regions, including markdown events during holidays that affect sales trends. The analysis focuses on three branches located in Mandalay, Yangon, and Naypyitaw. The dataset includes 17 columns and 1,000 rows:
