@@ -88,7 +88,7 @@ Assess the profitability of different customer segments.
 *	Fetch some most selling product lines?
 *	Fetch total revenue by month?
 *	Fetch months along with their COGS?
-*	Which product line has the largest revenue
+*	Which product line has the largest revenue?
 *	What city and branch has the largest revenue?
 *	Which product line has the largest VAT?
 *	Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
