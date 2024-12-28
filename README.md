@@ -48,15 +48,16 @@ The dataset contains historical sales data for 45 Walmart stores across various 
 
 2. Sales Analysis
 
-Examine sales trends by product category and branch.
+* Examine sales trends by product category and branch.
 
-Measure the effectiveness of sales strategies.
+* Measure the effectiveness of sales strategies.
 
 3. Customer Analysis
 
-Segment customers and analyze purchasing trends.
+* Segment customers and analyze purchasing trends.
 
-Assess the profitability of different customer segments.
+* Assess the profitability of different customer segments.
+
 ## Approach To The Project
 
 1. Data Wrangling
